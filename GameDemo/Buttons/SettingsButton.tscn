@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Buttons/StartButton.tscn" type="PackedScene" id=1]
+
+[node name="SettingsButton" instance=ExtResource( 1 )]
+margin_right = 750.0
+scene_to_load = "res://Scenes/Settings.tscn"
+
+[node name="Label" parent="." index="0"]
+text = "Settings"
